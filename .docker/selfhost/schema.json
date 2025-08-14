@@ -794,6 +794,15 @@
           },
           "default": {}
         },
+        "providers.custom": {
+          "type": "object",
+          "description": "The config for the custom provider.\n@default {\"apiKey\":\"\",\"baseURL\":\"\",\"model\":\"\"}",
+          "default": {
+            "apiKey": "",
+            "baseURL": "",
+            "model": ""
+          }
+        },
         "providers.morph": {
           "type": "object",
           "description": "The config for the morph provider.\n@default {}",

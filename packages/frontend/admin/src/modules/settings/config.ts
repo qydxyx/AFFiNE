@@ -147,6 +147,7 @@ export const KNOWN_CONFIG_GROUPS = [
       'providers.gemini',
       'providers.perplexity',
       'providers.anthropic',
+      'providers.custom',
       'providers.fal',
       'unsplash',
       'exa',
